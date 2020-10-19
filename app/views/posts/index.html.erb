@@ -10,7 +10,7 @@
 <script src="js/style.js"></script>
 
 <!-- Favicon -->
-<link rel="icon" type="image/png" href="/app/assets/images/favicon.png">
+<link rel="icon" type="image/png" href="img/favicon.png">
     
 </head>
 <body>
@@ -19,10 +19,11 @@
 <div class="row">
     <div class="col span-12">
     <div class="head">
-        <h1><a href="index.html">PORTFOLIO</a></h1>
+        <%= link_to "うまうまうまうま",root_path,class:"title" %>
 		<div class="snsbox">
-			<img src="/app/assets/images/in-icon.png" alt="Instagram">
-		    <img src="./img/fb-icon.png" alt="Facebook"></div>
+			<%= link_to image_tag("in-icon.png"),"https://www.instagram.com/jra.official/" %>
+		    <%= link_to image_tag("fb-icon.png"),"https://www.facebook.com/jra" %>
+            </div>
         </div>
     </div></div>
 <div class="row">
@@ -32,11 +33,11 @@
         <div id="close"><img src="img/button2.png"></div>    
             <div id="navi">
         <ul>
-            <li><a href="index.html">ホーム</a></li>
-            <li><a href="subpage.html">ギャラリーについて</a></li>
-            <li><a href="subpage.html">サブページ</a></li>
-            <li><a href="subpage.html">サブページ</a></li>
-            <li><a href="subpage.html">お問い合わせ</a></li>
+            <li><%= link_to "マイページ","#" %></li>
+            <li><%= link_to "掲示板","#" %></li>
+            <li><%= link_to "Umastagram","#" %></li>
+            <li><%= link_to "ラップ分析","#" %></li>
+            <li><%= link_to "武豊チャレンジ","#" %></li>
             </ul>
                 </div>
         </nav>
@@ -45,7 +46,7 @@
     </div>
     </header>
     <div class="mainimg">
-              <img src="img/mainimg.jpg" alt="メイン画像">
+              <%= image_tag "takuto.png",class:"main_img" %>
         </div>
     <main>
 <section>

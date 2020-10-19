@@ -30,17 +30,20 @@ a img:hover {
 	display: flex;
     flex-direction: row;
     padding: 1rem 0 0 0;
+    align-items: center;
 }
 
-.head h1 { 
+.title { 
     padding: 1rem 0;
 	font-weight: 700;
-	letter-spacing: 3px;
+    letter-spacing: 3px;
+    font-size: 50px;
 }
 .snsbox {
 	margin-left: auto;
 	font-size: 3.0rem;
-	padding: 1rem 0 0 0;
+    padding: 1rem 0 0 0;
+    display: flex;
 }
 nav ul {
 	display: flex;
@@ -116,9 +119,22 @@ nav li {
 
 /*メイン画像
 -------------------------------------*/
-.mainimg img {
-	width: 100vw;
+.main_img {
+    width: 70vw;
+    height: 80vh;
 }
+
+.mainimg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.mainimg
+
+/* ログイン機能 */
+
+
 
 /*メインコンテンツ
 -------------------------------------*/
