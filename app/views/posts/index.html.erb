@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ポートフォリオサイト</title>
+<link rel="stylesheet" media="all" href="css/ress.min.css" />
+<link rel="stylesheet" media="all" href="css/style.css" />
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/style.js"></script>
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+    
+</head>
+<body>
+<header>    
+<div class="container">
+<div class="row">
+    <div class="col span-12">
+    <div class="head">
+        <%= link_to "うまうまうまうま",root_path,class:"title" %>
+		<div class="snsbox">
+			<%= link_to image_tag("in-icon.png"),"https://www.instagram.com/jra.official/" %>
+		    <%= link_to image_tag("fb-icon.png"),"https://www.facebook.com/jra" %>
+            </div>
+        </div>
+    </div></div>
+<div class="row">
+    <div class="col span-12">
+        <nav>
+        <div id="open"><img src="img/button.png"></div>
+        <div id="close"><img src="img/button2.png"></div>    
+            <div id="navi">
+        <ul>
+            <li><%= link_to "マイページ","#" %></li>
+            <li><%= link_to "掲示板","#" %></li>
+            <li><%= link_to "Umastagram","#" %></li>
+            <li><%= link_to "ラップ分析","#" %></li>
+            <li><%= link_to "武豊チャレンジ","#" %></li>
+            </ul>
+                </div>
+        </nav>
+    </div>
+        </div>
+    </div>
+    </header>
+    <div class="mainimg">
+              <%= image_tag "takuto.png",class:"main_img" %>
+        </div>
+    <main>
+<section>
+<div class="container">
+	<h2 class="catch">Works</h2>
+<div class="row">
+	<div class="col span-4">
+	<figure>
+		<img src="img/catch.jpg" alt="画像">
+		<figcaption>キャプション</figcaption>
+		</figure>
+	</div>
+	<div class="col span-4">
+	<figure>
+		<img src="img/catch.jpg" alt="画像">
+		<figcaption>キャプション</figcaption>
+		</figure>
+	</div>
+	<div class="col span-4">
+	<figure>
+		<img src="img/catch.jpg" alt="画像">
+		<figcaption>キャプション</figcaption>
+		</figure>
+	</div>
+    </div>    
+<div class="row">
+	<div class="col span-4">
+	<figure>
+		<img src="img/catch.jpg" alt="画像">
+		<figcaption>キャプション</figcaption>
+		</figure>
+	</div>
+	<div class="col span-4">
+	<figure>
+		<img src="img/catch.jpg" alt="画像">
+		<figcaption>キャプション</figcaption>
+		</figure>
+	</div>
+	<div class="col span-4">
+	<figure>
+		<img src="img/catch.jpg" alt="画像">
+		<figcaption>キャプション</figcaption>
+		</figure>
+	</div>
+    </div> 
+	<p class="center"><button>その他のギャラリー</button></p>
+        </div>
+</section>
+    </main>
+    <footer>
+<div class="container">
+<div class="row">
+    <div class="col span-4">
+        <h5>フッター１</h5>
+        <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+    </div>
+    <div class="col span-4">
+        <h5>フッター２</h5>
+        <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+    </div>
+    <div class="col span-4">
+        <h5>フッター３</h5>
+        <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+    </div>
+        </div>
+</div>
+    </footer>
+    <div class="copyright">
+<div class="container">
+<div class="row">
+    <div class="col"><hr>
+    Copyright © <a href="https://popo-design.net" target="_blank">popodesign. </a>
+    
+    </div>    
+        </div>
+    </div>
+        </div>
+<p id="pagetop"><a href="#">TOP</a></p>    
+</body>
+</html>
