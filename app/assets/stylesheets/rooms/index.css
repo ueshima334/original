@@ -1,0 +1,82 @@
+.main-title{
+  font-size: 40px;
+}
+
+.room-contents{
+  display: flex;
+  flex-direction: column;
+  padding: 0 300px;
+}
+
+
+
+.room{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.rooms{
+  margin-top: 30px;
+}
+/* 掲示板名----------------------- */
+h1,h2{
+  text-align: center;
+}
+
+h1 {
+  position: relative;
+  padding: 1em 0;
+}
+
+h1::before,
+h1::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 6px;
+  box-sizing: border-box;
+}
+
+h1::before {
+  top: 0;
+  border-top: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+h1::after {
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+/* 新規スレッド作成ボタン------------------- */
+.new-rooms{
+  display: inline-block;
+  padding: 16px 32px;
+  background:skyblue;
+  border-bottom: solid 4px skyblue;
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  line-heigt: 1.2em;
+  -webkit-transition: .100s;
+  transition: .100s;
+}
+
+/* スレッドタイトル---------------- */
+.room-title {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+}
+.room-title:first-letter {
+  margin-right: .1em;
+  font-size: 1.5em;
+}
+
+a{
+  text-decoration: none;
+}
